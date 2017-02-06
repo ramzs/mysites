@@ -1,0 +1,382 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	display: table;
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	position: relative;
+	line-height: 1;
+	font-family: "RobotoRegular", sans-serif;
+	overflow-x: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+.wrapper {
+	width: 100%;
+}
+.container {
+	width: 1345px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+@media only screen and (max-width : 340px) {
+	.container {
+		width: 1270px;
+	}
+}
+.header {
+	height: 184px;
+	background: #D27418;
+}
+.header-logo {
+	display: inline-block;
+	margin-top: 21px;
+}
+.header-callback {
+	float: right;
+    width: 770px;
+    height: 184px;
+    position: relative;
+}
+.header-phone {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: url(../img/phone-header.png) no-repeat;
+	width: 152px;
+	height: 28px;
+}
+.header-email {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	background: url(../img/email-header.png) no-repeat;
+	width: 212px;
+	height: 26px;
+}
+.header-address {
+	position: absolute;
+	top: 90px;
+	right: 20px;
+	background: url(../img/address-header.png) no-repeat;
+	width: 268px;
+	height: 25px;
+}
+/*
+.header-callback_phone {
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+}
+.header-callback_email {
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+	margin-left: 84px;
+}
+.header-callback_address {
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+	margin-left: 100px;
+}
+.header-callback_phone:before,
+.header-callback_email:before,
+.header-callback_address:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 20px;
+}
+.header-callback_phone:before {
+	background: url(../img/phone-call.png) no-repeat;
+	top: 13px;
+	left: -32px;
+}
+.header-callback_email:before {
+	background: url(../img/message.png) no-repeat;
+	top: 3px;
+	left: -32px;
+}
+.header-callback_address:before {
+	background: url(../img/map.png) no-repeat;
+	top: -1px;
+	left: -28px;
+}
+*/
+
+.service {
+    padding-top: 69px;
+}
+.service-title h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.service-icon {
+	display: inline-block;
+	width: 20%;
+    vertical-align: top;
+    margin-top: 170px;
+	text-align: center;
+}
+.service-icon img {
+	display: inline-block;
+	height: 72px;
+	margin-bottom: 39px;
+}
+.service-icon span {
+	display: block;
+	font-size: 18px;
+}
+.service-form {
+	float: right;
+	width: 423px;
+	height: 363px;
+	margin-top: 58px;
+	padding-top: 45px;
+	text-align: center;
+	background: #0D5AA2;
+}
+.service-form form {
+	text-align: center;
+}
+.service-form form span {
+	display: block;
+	margin-bottom: 39px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+.service-form form input {
+	display: inline-block;
+	width: 356px;
+	height: 52px;
+	margin-bottom: 25px;
+	padding-left: 15px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+.service-form form button {
+	width: 192px;
+	height: 53px;
+	margin-top: 11px;
+	font-size: 18px;
+	background: #FFFF00;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.catalog {
+    padding-top: 85px;
+}
+.catalog-item {
+	display: inline-block;
+	width: 24%;
+	margin-bottom: 103px;
+	vertical-align: bottom;
+	text-align: center;
+}
+.catalog-item img {
+    margin-bottom: 23px;
+}
+.catalog-item .item-title {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.catalog-item p {
+    margin-bottom: 14px;
+}
+.catalog-item span {
+	display: block;
+    margin-bottom: -4px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.catalog-item a {
+	display: inline-block;
+	margin-top: 9px;
+	width: 135px;
+	height: 45px;
+	line-height: 43px;
+	font-size: 15px;
+	color: #000;
+	background: #FFFF00;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.rent {
+    margin-top: -22px;
+    padding-bottom: 92px;
+}
+.rent-title h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.rent ul {
+	display: inline-block;
+    margin: 46px 0 0 40px;
+}
+.rent ul li {
+	margin-bottom: 20px;
+	position: relative;
+	font-size: 18px;
+}
+.rent ul li:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	background: url(../img/check-mark.png) no-repeat;
+	width: 27px;
+	height: 27px;
+	top: -5px;
+	left: -38px;
+}
+.rent-form {
+    margin-top: -40px;
+}
+.footer {
+	display: inline-table;
+	width: 100%;
+	height: 58px;
+	background: #F2F2F2;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.copyright {
+	display: inline-block;
+    line-height: 58px;
+}
+.footer-callback {
+    float: right;
+    line-height: 58px;
+}
+.footer-callback span {
+	margin: 0 10px;
+}
+
+.hidden-form {
+	float: none;
+	margin-top: 0;
+	margin: auto;
+	position: relative;
+}

@@ -1,3 +1,10 @@
+node_modules/
+localhost/
+modx-test/
+wp-ramzs/
+wp-test/
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

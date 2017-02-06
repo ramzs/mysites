@@ -1,0 +1,1316 @@
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1700px) {
+
+    /*############### begin main page ############## */
+
+    .wrap,
+    .content{
+        max-width:100%;
+        padding-right:20px;
+        padding-left:20px;
+    }
+
+    .slider_info{
+        right:10%;
+        width:400px;
+        top:19%;
+    }
+
+    .slider_info_left{
+        right:auto;
+        left:10%;
+    }
+
+    .page_info{
+        right:9.8%;
+        width:650px;
+        top:11.4%;
+    }
+
+    .page_info_left{
+        right:auto;
+        left:9.8%;
+    }
+
+    .page_nav{
+        right:20px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* ################### begin brand page ################ */
+
+    .brand_img_3row{
+        width:31.66%;
+    }
+
+    .brand_img_2row{
+        width:48.40%;
+    }
+
+    .brand_img_4row{
+        width:23.33%;
+    }
+
+    .brand_img_3row .items_list span,
+    .brand_img_3row .items_list span a{
+        font-size:18px;
+        line-height:21px;
+    }
+
+    .brand_img_4row .items_list span,
+    .brand_img_4row .items_list span a{
+        font-size:13px;
+        line-height:15px;
+    }
+
+    .copy{
+        padding-left:0px;
+    }
+
+    .socials{
+        padding-right:0px;
+    }
+
+    /* ################### end brand page ################ */
+
+    /* /1700 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1620px) {
+
+    /*############### begin main page ############## */
+
+    .slider_info{
+        right:9%;
+        width:394px;
+        top:18.9%;
+    }
+
+    .slider_info_left{
+        right:auto;
+        left:9%;
+    }
+
+    .page_info{
+        right:8.8%;
+        width:644px;
+        top:11.3%;
+    }
+
+    .page_info_left{
+        right:auto;
+        left:8.8%;
+    }
+
+    /*############### end main page ############## */
+
+    /* /1620 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1380px) {
+
+    /*############### begin main page ############## */
+
+    .slider_info{
+        right:8.2%;
+        width:338px;
+        top:18.4%;
+    }
+
+    .slider_info_left{
+        right:auto;
+        left:8.2%;
+    }
+
+    .page_info{
+        right:8%;
+        width:588px;
+        top:10.8%;
+    }
+
+    .page_info_left{
+        right:auto;
+        left:8%;
+    }
+
+    .season{
+        font-size:40px;
+        line-height:42px;
+    }
+
+    .slider_info h2{
+        font-size:60px;
+        line-height:70px;
+        padding-top:19px;
+    }
+
+    .slider_info p{
+        font-size:15px;
+        line-height:22px;
+        padding-top:21px;
+        padding-right:0px;
+    }
+
+    .button_group{
+        padding-top:35px;
+    }
+
+    .page_info h3{
+        font-size:46px;
+        line-height:56px;
+        padding-top:19px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* ################### begin brand page ################ */
+
+    .top_menu{
+        left: -4%;
+        top: -4px;
+    }
+
+    .brand_img_3row .items_list span,
+    .brand_img_3row .items_list span a{
+        font-size:16px;
+        line-height:19px;
+    }
+
+    .brand_img_4row{
+        width:48.41%;
+    }
+
+    .brand_img_4row .items_list span,
+    .brand_img_4row .items_list span a{
+        font-size:24px;
+        line-height:33px;
+    }
+
+    /* ################### end brand page ################ */
+
+
+    /* /1380 */
+
+    .top_menu {
+        top: -1px;
+    }
+}
+
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1290px) {
+
+    /*############### begin main page ############## */
+
+    .slider_info{
+        right:9%;
+        width:315px;
+        top:20%;
+    }
+
+    .slider_info_left{
+        right:auto;
+        left:9%;
+    }
+
+    .page_info{
+        right:8.8%;
+        width:500px;
+        top:20%;
+    }
+
+    .page_info_left{
+        right:auto;
+        left:8.8%;
+    }
+
+    .season{
+        font-size:40px;
+        line-height:42px;
+    }
+
+    .slider_info h2{
+        font-size:60px;
+        line-height:70px;
+        padding-top:19px;
+    }
+
+    .slider_info p{
+        font-size:15px;
+        line-height:22px;
+        padding-top:21px;
+        padding-right:0px;
+    }
+
+    .button_group{
+        padding-top:35px;
+    }
+
+    .btn{
+        min-width:130px;
+    }
+
+    .slider_info h3{
+        font-size:56px;
+        line-height:66px;
+        padding-top:19px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* ################### begin brand page ################ */
+
+    .items_list{
+        padding-top:0px;
+    }
+
+    .brand_img_3row .items_list span,
+    .brand_img_3row .items_list span a{
+        font-size:14px;
+        line-height:17px;
+    }
+
+    .brand_img_4row .items_list span,
+    .brand_img_4row .items_list span a,
+    .brand_img_2row .items_list span,
+    .brand_img_2row .items_list span a{
+        font-size:18px;
+        line-height:21px;
+    }
+
+    .brand_img_3row{
+        width:31.5%;
+    }
+
+    .brand_img_4row,
+    .brand_img_2row{
+        width:48.2%;
+    }
+
+    /* ################### end brand page ################ */
+
+
+    /* /1290 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1090px) {
+
+    /* ################### begin brand page ################ */
+
+    .go_top{
+        margin:0 4px;
+    }
+
+    .links_center{
+        left:37px;
+    }
+
+    .link{
+        font-size:14px;
+        padding-top:9px;
+    }
+
+    .top_menu li a{
+        font-size:14px;
+    }
+
+    .search_icon{
+        display:none;
+    }
+
+    .inner_head{
+        padding-top:14px;
+    }
+
+    .inner_head .logo{
+        margin-left:0px;
+    }
+
+    .main_head .logo{
+        margin-left:0px;
+    }
+
+    .inner_head .logo img{
+        height:30px;
+    }
+
+    .main_head .logo img{
+        height:30px;
+    }
+
+    .inner_head .top_menu{
+        padding-top:14px;
+    }
+
+    .inner_head .link{
+        margin-top:0px;
+        position:relative;
+        top:-6px;
+    }
+
+    .content{
+        padding-top:76px;
+    }
+
+    h1{
+        font-size:26px;
+        line-height:29px;
+    }
+
+    .brand_images{
+        padding-top:23px;
+    }
+
+    /* ################### end brand page ################ */
+
+    /* /1090 */
+
+    .top_menu {
+        top: -2px !important;
+    }
+}
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1040px) {
+
+    /*############### begin main page ############## */
+
+    .slider_info{
+        right:8.8%;
+        width:254px;
+        top:18%;
+    }
+
+    .slider_info_left{
+        right:auto;
+        left:8.8%;
+    }
+
+    .page_info{
+        right:8.6%;
+        width:400px;
+        top:18%;
+    }
+
+    .page_info_left{
+        right:auto;
+        left:8.6%;
+    }
+
+    .season{
+        font-size:30px;
+        line-height:32px;
+    }
+
+    .slider_info h2{
+        font-size:46px;
+        line-height:50px;
+        padding-top:26px;
+    }
+
+    .slider_info p{
+        font-size:14px;
+        line-height:20px;
+        padding-top:27px;
+    }
+
+    .button_group{
+        padding-top:35px;
+    }
+
+    .btn{
+        min-width:110px;
+    }
+
+    .slider_info h3{
+        font-size:42px;
+        line-height:46px;
+        padding-top:26px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* /1040 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1290px) and (min-width: 1000px) and (max-height: 720px) {
+
+    /*############### begin main page ############## */
+
+    .slider_info,
+    .page_info{
+        top:18%;
+    }
+
+    .season{
+        font-size:25px;
+    }
+
+    .slider_info h2{
+        padding-top:15px;
+        font-size:30px;
+        line-height:40px;
+    }
+
+    .slider_info p{
+        font-size:13px;
+        padding-top:15px;
+        line-height:18px;
+    }
+
+    .button_group{
+        padding-top:15px;
+    }
+
+    .slider_info h3{
+        padding-top:15px;
+        font-size:26px;
+        line-height:36px;
+    }
+
+    /*############### end main page ############## */
+
+    /* /1290 & h/720 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 1160px) and (max-height: 810px) {
+
+    /*############### begin main page ############## */
+
+    .slider_info,
+    .page_info{
+        top:16%;
+    }
+
+    .slider_info h2{
+        font-size:35px;
+        line-height:45px;
+    }
+
+    .button_group{
+        padding-top:15px;
+    }
+
+    .slider_info h3{
+        font-size:31px;
+        line-height:41px;
+    }
+
+    /*############### end main page ############## */
+
+    /* /1160 & h/810 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 1160px) and (max-height: 580px) {
+
+    /*############### begin main page ############## */
+
+    .slider_bg,
+    .bg{
+        background-position:0 35%;
+    }
+
+    .wrapper,
+    .slider_bg,
+    .bg{
+        min-height:600px;
+    }
+
+    footer{
+        border-bottom:1px solid #fff;
+    }
+
+    .page_nav{
+        display:none;
+    }
+
+    /*############### end main page ############## */
+
+    /* /1160 & h/580 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1040px) and (min-width: 1000px) and (max-height: 560px) {
+
+    /*############### begin main page ############## */
+
+    .wrapper,
+    .slider_bg,
+    .bg{
+        min-height:600px;
+    }
+
+    footer{
+        border-bottom:1px solid #fff;
+    }
+
+    .page_nav{
+        display:none;
+    }
+
+    /*############### end main page ############## */
+
+    /* /1040 & h/560 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 999px) {
+
+    /*############### begin main page ############## */
+
+    .main_head{
+        background:#918f8c;
+        padding:6px 0 0;
+        border-bottom:1px solid #fff;
+        height:52px;
+        position:fixed;
+    }
+
+    .logo{
+        top:5px;
+        margin-left:-44px;
+    }
+
+    .logo img{
+        height:40px;
+    }
+
+    .main_head .link:not(.cart_link),
+    .inner_head .link:not(.cart_link){
+        display:none;
+    }
+
+    .main_head .link.cart_link,
+    .menu_toggle,
+    .inner_head .link.cart_link{
+        font-size:18px;
+        line-height:18px;
+        text-transform:uppercase;
+    }
+
+    .main_head .link.cart_link,
+    .inner_head .link.cart_link{
+        position:relative;
+        top:3px;
+        margin-right:0px;
+        padding-right:10px;
+        padding-left:10px;
+        right:-10px;
+    }
+    .main_head .link.cart_link:hover,
+    .inner_head .link.cart_link:hover{
+        border-color:transparent;
+    }
+    .inner_head.shown .link.cart_link{
+        top:7px;
+    }
+
+    .menu_toggle{
+        color:#fff;
+        padding-left:28px;
+        position:absolute;
+        cursor:pointer;
+        display:block;
+        top:17px;
+        left:20px;
+        height:30px;
+        width:50px;
+    }
+
+    .menu_toggle b{
+        display:block;
+        position:absolute;
+        top:2px;
+        left:0px;
+        width:19px;
+        height:2px;
+        background:#fff;
+    }
+    .menu_toggle b:nth-child(2){
+        top:7px;
+    }
+    .menu_toggle b:nth-child(3){
+        top:12px;
+    }
+
+    .menu_mobile{
+        position:absolute;
+        top:52px;
+        left:0px;
+        width:100%;
+        background:#918f8c;
+        border-bottom:1px solid #fff;
+        padding:24px 0 6px;
+    }
+
+    .menu_mobile div{
+        display:inline-block;
+        vertical-align:top;
+        width:216px;
+        padding:0 0 0 20px;
+    }
+
+    .menu_mobile div a{
+        position:relative;
+        padding:0 0 0 15px;
+        font-size:18px;
+        line-height:18px;
+        text-transform:uppercase;
+        margin-bottom:12px;
+        display:block;
+    }
+    .menu_mobile div a:before{
+        content:'';
+        position:absolute;
+        top:6px;
+        left:0px;
+        background:#fff;
+        border-radius:10px;
+        height:5px;
+        width:5px;
+    }
+    .menu_mobile div a.current_page{
+        text-decoration:underline;
+    }
+
+    .close_menu b:nth-child(2),
+    .close_menu b:nth-child(3){
+        display:none;
+    }
+
+    .close_menu b:nth-child(1){
+        background:url(../img/icons.png) no-repeat 0 0;
+        height:16px;
+        width:16px;
+        top:0px;
+    }
+
+    .page_nav{
+        display:none;
+    }
+
+    .hero-slider{
+        padding-top:52px;
+    }
+
+    .slider_bg,
+    .bg{
+        height:500px !important;
+    }
+
+    .slider_item{
+        height:auto;
+        border-bottom:1px solid #fff;
+    }
+
+    .owl-buttons{
+        display:block;
+        position:absolute;
+        top:0px;
+        left:0px;
+        height:1px;
+        width:100%;
+    }
+
+    .owl-prev,
+    .owl-next{
+        text-indent:-9999px;
+        background:url(../img/arrows.png) no-repeat 0 0;
+        height:24px;
+        width:13px;
+        position:absolute;
+        top:230px;
+        left:10px;
+    }
+    .owl-next{
+        background-position:-13px 0;
+        left:auto;
+        right:10px;
+    }
+
+    .thumb-container{
+        display:none;
+    }
+
+    .slider_info{
+        padding:6px 0 21px;
+        width:auto;
+        position:static;
+    }
+
+    .slider_info_wrap{
+        padding:0 20px;
+    }
+
+    .season{
+        font-size:26px;
+        line-height:26px;
+    }
+
+    .slider_info h2,
+    h3{
+        font-size:40px;
+        line-height:50px;
+        padding-top:5px;
+    }
+
+    .slider_info p{
+        font-size:13px;
+        line-height:19px;
+        padding:5px 0 0;
+    }
+
+    .button_group{
+        padding-top:16px;
+    }
+
+    .page_info,
+    .page_info_left{
+        position:relative;
+        top:0px;
+        right:0px;
+        left:0px;
+        width:auto;
+        padding:0 20px 20px;
+    }
+
+    .page_info h3{
+        width:45%;
+        float:right;
+        position:absolute;
+        top:-400px;
+        right:20px;
+        font-size:40px;
+        line-height:50px;
+    }
+
+    .page_info_left h3{
+        right:auto;
+        left:20px;
+    }
+
+    .page_info p{
+        clear:both;
+        padding:10px 0 0;
+        font-size:13px;
+        line-height:19px;
+    }
+
+    .button_group2{
+        padding-top:15px;
+    }
+
+    .main_foot{
+        background:#918f8c;
+        height:auto;
+        padding-bottom:10px;
+    }
+
+    body#main_page{
+        overflow-y:auto;
+    }
+
+    .page_wrapper{
+        padding-bottom:90px;
+    }
+
+    .video_box_main{
+        height:auto;
+        padding-top:52px;
+        overflow:hidden;
+    }
+
+    .slider_item .video_box_main{
+        padding-top:0px;
+        height:auto !important;
+    }
+
+    video{
+        min-height:inherit;
+        min-width:100%;
+        width:100%;
+    }
+
+    .slider_item .video_box_main video{
+        display:block;
+        vertical-align:top;
+        min-height:inherit !important;
+        max-height: inherit;
+        height:auto !important;
+    }
+
+    .link:hover svg rect{
+        stroke: transparent;
+        -webkit-animation: none;
+        animation: none;
+    }
+    .link:hover{
+        text-decoration:underline;
+        border-color:transparent !important;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* ################### begin brand page ################ */
+
+    .top_menu{
+        display:none;
+    }
+
+    .inner_head .logo{
+        position:absolute;
+        float:none;
+        left:50%;
+        top:5px;
+        margin-left:-44px;
+    }
+
+    .main_head .logo{
+        position:absolute;
+        float:none;
+        left:50%;
+        top:5px;
+        margin-left:-44px;
+    }
+
+    .inner_head .logo img{
+        height:40px;
+    }
+
+    .main_head .logo img{
+        height:40px;
+    }
+
+    .inner_head .cart_link{
+        padding-top:0px;
+    }
+
+    .content{
+        padding-top:63px;
+        padding:63px 0 0;
+    }
+
+    h1{
+        font-size:24px;
+        line-height:30px;
+    }
+
+    .brand_images{
+        left:0px;
+        margin-left:0px;
+        border-top:1px solid #fff;
+        padding-top:10px;
+        margin-top:11px;
+    }
+
+    .brand_img{
+        display:block;
+        margin:0 auto 10px;
+        width:480px;
+        overflow:hidden;
+    }
+
+    .brand_img .items_list span,
+    .brand_img .items_list span a{
+        font-size:18px;
+        line-height:21px;
+    }
+
+    .brand_img .items_list{
+        padding-top:45px;
+    }
+
+    .item_visible .items_list{
+        opacity:1 !important;
+    }
+    .item_visible .items_list .items_list_content{
+        display:block !important;
+    }
+
+    .item_hidden .items_list{
+        opacity:0 !important;
+    }
+    .item_hidden .items_list .items_list_content{
+        display:none !important;
+    }
+
+    .close_info{
+        position:absolute;
+        top:20px;
+        background:url(../img/icons.png) no-repeat 0 -62px;
+        height:20px;
+        width:20px;
+        left:50%;
+        margin-left:-10px;
+        display:block;
+        cursor:pointer;
+        z-index:900;
+    }
+
+    .items_list{
+        line-height:33px !important;
+    }
+
+    footer.inner_foot{
+        display:block;
+        height:auto;
+        padding:36px 0 10px;
+    }
+
+    .links_center{
+        left:0px;
+        padding-bottom:20px;
+        height:30px;
+    }
+
+    .links_group .link{
+        display:none;
+    }
+
+    .go_top{
+        position:absolute;
+        left:50%;
+        margin-left:-10px;
+        top:0px;
+    }
+
+    .copy{
+        padding-left:0px;
+    }
+
+    .socials{
+        padding-right:0px;
+    }
+
+    .push{
+        display:none;
+    }
+
+    .wrapper_in{
+        margin-bottom:0px;
+    }
+
+    /* ################### end brand page ################ */
+
+    .slid_second_cat {
+        margin-right: 17px;
+    }
+
+
+    .play_video {
+        left: 44%;
+        top: 42%;
+    }
+
+
+    /* /999 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 780px) {
+
+    /*############### begin main page ############## */
+
+    .slider_bg,
+    .bg{
+        height:400px !important;
+    }
+
+    .page_info h3{
+        top:-350px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* /780 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+
+    /*############### begin main page ############## */
+
+    .slider_bg,
+    .bg{
+        height:300px !important;
+    }
+
+    .page_info h3{
+        top:-300px;
+        width:49%;
+        font-size:37px;
+        line-height:47px;
+    }
+
+    .button_group{
+        display:table;
+        width:100%;
+    }
+
+    .button_group .btn{
+        width:47%;
+    }
+    .button_group .btn:first-child{
+        /*margin-right:0px;*/
+        /*margin-right: 25px;*/
+        float:left;
+    }
+    .button_group .btn:last-child{
+        float:right;
+    }
+
+    .button_group2 .btn{
+        float:none;
+        width:100%;
+    }
+
+    .owl-prev,
+    .owl-next{
+        top:175px;
+    }
+
+    /*############### end main page ############## */
+
+    /* /600 */
+    .slid_second_cat {
+        margin-right: 0px;
+        float: right;
+    }
+
+    .button_group .btn {
+        margin-bottom: 10px;
+        margin-right: 5px !important;
+    }
+
+
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+
+    /*############### begin main page ############## */
+
+    .hero-slider{
+        padding-top:50px;
+    }
+
+    .slider_bg,
+    .bg{
+        height:250px !important;
+        padding-bottom:30px;
+        box-sizing:content-box;
+    }
+
+    .page_info h3{
+        top:-270px;
+        width:50%;
+        font-size:34px;
+        line-height:44px;
+    }
+
+    /*############### end main page ############## */
+
+    /* /500 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 475px) {
+
+    /*############### begin main page ############## */
+
+    .slider_bg,
+    .bg{
+        height:200px !important;
+        padding-bottom:20px;
+    }
+
+    .page_info h3{
+        top:-200px;
+        width:45%;
+        font-size:20px;
+        line-height:28px;
+    }
+
+    .owl-prev,
+    .owl-next{
+        top:140px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* ################### begin brand page ################ */
+
+    .brand_images{
+        padding-top:0px;
+    }
+
+    .brand_img{
+        margin:0 auto;
+        max-width:100%;
+        width:100%;
+        overflow:hidden;
+        min-height:inherit;
+    }
+
+    .brand_img img{
+        width:100%;
+        height:auto;
+    }
+
+    .brand_img .items_list{
+        padding-top:40px;
+    }
+
+    .brand_img .items_list span,
+    .brand_img .items_list span a{
+        font-size:15px;
+        line-height:17px;
+    }
+
+    .copy{
+        float:none;
+        text-align:center;
+        display:block;
+    }
+
+    .socials, .footer_phones{
+        float:none;
+        text-align:center;
+    }
+
+    .socials a{
+        margin:0 2px;
+    }
+
+    /* ################### end brand page ################ */
+
+    /* /475 */
+}
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 380px) {
+
+    /*############### begin main page ############## */
+
+    .logo,
+    .inner_head .logo{
+        margin-left:-40px;
+        top:10px;
+    }
+
+    .logo img,
+    .inner_head .logo img{
+        height:30px;
+    }
+
+    .main_head .link.cart_link,
+    .menu_toggle,
+    .inner_head .link.cart_link{
+        font-size:15px;
+    }
+
+    /*############### end main page ############## */
+
+
+    /* ################### begin brand page ################ */
+
+    .items_list span a{
+        margin-top:5px;
+        width:80%;
+        position:relative;
+        left:-1%;
+    }
+
+    /* ################### end brand page ################ */
+
+
+    /* /380 */
+}
+
+
+
+/*
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 320px) {
+
+    .wrapper{
+        min-width:320px;
+    }
+
+    body{
+        overflow-x:auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    .play_video {
+        left: 42%;
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+
+}
+
+@media only screen and (max-width: 1260px) {
+    .top_menu li a {
+        font-size: 13px;
+        left: -43%;
+        padding: 0 19px 0 20px;
+    }
+
+    .inner_head .link {
+        font-size: 13px;
+    }
+
+    .top_menu {
+        top: -4px;
+    }
+}

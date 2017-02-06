@@ -1,0 +1,77 @@
+/** Stage container **/
+.connected-carousels {
+    display: inline-block;
+    margin-top: 30px;
+}
+.connected-carousels .stage {
+    width: 370px;
+    height: 275px;
+    position: relative;
+    border: 1px solid #00a0e3;
+}
+/** Navigation container **/
+.connected-carousels .navigation {
+    width: 260px;
+    margin: -65px 55px 0;
+    position: relative;
+}
+/** Shared carousel styles **/
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+.connected-carousels .carousel ul {
+    width: 20000em;
+    position: relative;
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.connected-carousels .carousel li {
+    float: left;
+}
+/** Stage carousel specific styles **/
+.connected-carousels .carousel-stage {
+    height: 273px;
+    background: #fff;
+}
+/** Navigation carousel specific styles **/
+.connected-carousels .carousel-navigation {
+    width: 249px;
+}
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+    margin: 0 12px;
+}
+.connected-carousels .carousel-navigation li img {
+    display: block;
+    border: 1px solid #00a0e3;
+}
+.connected-carousels .carousel-navigation li.active img {
+    border-color: #d82d37;
+}
+/** Stage carousel controls **/
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    width: 16px;
+    height: 24px;
+    color: #fff;
+}
+.connected-carousels .prev-stage {
+    background: url(../../img/arrow-blue-left.png) no-repeat;
+    left: 35px;
+}
+.connected-carousels .prev-stage:hover {
+    background: url(../../img/arrow-red-left.png) no-repeat;
+}
+.connected-carousels .next-stage {
+    background: url(../../img/arrow-blue.png) no-repeat;
+    right: 35px;
+}
+.connected-carousels .next-stage:hover {
+    background: url(../../img/arrow-red.png) no-repeat;
+}

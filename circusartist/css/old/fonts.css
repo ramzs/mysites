@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Segoe';
+	src: url('../fonts/SegoePrint-Bold.eot');
+	src: url('../fonts/SegoePrint-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SegoePrint-Bold.woff') format('woff'),
+		url('../fonts/SegoePrint-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe';
+	src: url('../fonts/SegoePrint.eot');
+	src: url('../fonts/SegoePrint.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SegoePrint.woff') format('woff'),
+		url('../fonts/SegoePrint.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

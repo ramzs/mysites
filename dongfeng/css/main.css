@@ -1,0 +1,402 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font: 14px/18px "Open Sans", sans-serif;
+	font-weight: 300;
+	color: #000;
+	background: #f5f5f5;
+}
+/*Общие стили*/
+.wrapper {
+	min-width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+.container {
+	max-width: 1214px;
+	position: relative;
+	margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+/*Шапка сайта*/
+.header {
+	height: 175px;
+	background: #fff;
+}
+.logo {
+	float: left;
+	padding-top: 30px;
+}
+.title_logo {
+	float: left;
+	padding: 40px 0 0 56px;
+}
+.title {
+	display: inline-block;
+	font-size: 30px;
+	color: #999999;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+.title span {
+	color: #cc0000;
+}
+/*Правая часть шапки*/
+.contact_top {
+	float: right;
+	width: 290px;
+	padding-top: 30px;
+}
+.social {
+	float: left;
+}
+.social_icon {
+	width: 28px;
+	height: 28px;
+	background: url(../img/social.png) no-repeat;
+	display: inline-block;
+}
+.vk_icon {
+	background-position: 0 0;
+}
+.fb_icon {
+	background-position: -30px 0;
+}
+.feedback {
+	float: right;
+	line-height: 26px;
+}
+.feedback a {
+	display: inline-block;
+	color: #555555;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.feedback a:hover {
+	color: #c31704;
+}
+.feedback span {
+	font-size: 16px;
+	margin: 0 10px;
+}
+/*Панель навигации*/
+nav {
+	height: 55px;
+	background: #242424;
+	clear: both;
+}
+.top_menu {
+	text-align: center;
+	font-size: 0;
+}
+.top_menu li {
+	display: inline-block;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.top_menu li:last-child {
+	padding-right: 0;
+}
+.top_menu a {
+	font-size: 20px;
+	line-height: 55px;
+	padding: 0 30px;
+	color: #d3d3d3;
+	text-decoration: none;
+}
+.top_menu li:hover {
+	background-color: #c31704;
+}
+.top_menu li.active {
+	background-color: #c31704;
+}
+/*Слайдер*/
+.slider {
+	z-index: 1;
+	width: 1214px;
+	height: 510px;
+	overflow: hidden;
+	margin: 0 0 7px;
+	position: relative;
+}
+.slider ul,
+.slider li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.slider ul {
+	width: 9999px;
+}
+.slider ul li {
+	list-style-type: none;
+	float: left;
+	width: 1214px;
+	height: 510px;
+}
+.slider .nav {
+	z-index: 3;
+	position: absolute;
+	right: 70px;
+	bottom: 12px;
+}
+.slider .nav span {
+	opacity: 0.9;
+	background: #fff;
+	margin: 0 8px 0 0;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	overflow: hidden;
+	display: block;
+	float: left;
+	box-shadow: 0 1px 2px #000;
+}
+.slider .nav span.on {
+	background: #c31804;
+}
+/*Блоки в слайдере*/
+.slider_content_block {
+	background: url(../img/slider_text-block.png) no-repeat;
+	position: absolute;
+  top: 0;
+  text-align: left;
+  right: 66px;
+  width: 256px;
+  height: 510px;
+}
+.slider_content_block img {
+	position: absolute;
+  left: -23px;
+  top: 89px;
+}
+.slider_content_block h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #e6e2e2;
+	padding: 100px 0 0 50px;
+}
+.slider_content_block p {
+	font-weight: 400;
+	padding: 30px 0 0 50px;
+	line-height: 2;
+	color: #e6e2e2;
+}
+/*for ie-8*/
+.slider_bottom {
+	background-color: #212121;
+	filter: alpha(opacity=70);
+}
+.slider_bottom {
+	position: absolute;
+  width: 100%;
+  height: 52px;
+  background-color: rgba(33,33,33, 0.7);
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+/*Главный контент*/
+.middle {
+	margin-bottom: 55px;
+}
+.main_content {
+	float: left;
+	width: 780px;
+}
+.main_title {
+	font-size: 30px;
+	margin-top: 46px;
+	color: #393838;
+	text-transform: uppercase;
+}
+.item_block_1, .item_block_2, .item_block_3 {
+	display: inline-block;
+	width: 770px;
+	margin: 36px 0 10px;
+	position: relative;
+	background-color: #fff;
+}
+.item_block_2, .item_block_3 {
+	margin-top: 0;
+}
+.item_block_3 {
+	margin-bottom: 0;
+}
+.item_picture {
+	display: inline-block;
+	padding: 8px 50px 4px 8px;
+}
+.item_text {
+	display: inline-block;
+	position: absolute;
+  top: 36px;
+}
+.item_text h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #393838;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+.item_text p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #393838;
+}
+.item_text span {
+	font-weight: 700;
+	color: #c31804;
+}
+/*Правый сайдбар*/
+.right_sidebar {
+	width: 320px;
+	float: right;
+	text-align: left;
+}
+.sidebar_title {
+	font-size: 30px;
+	margin: 46px 0 33px;
+	color: #393838;
+	text-transform: uppercase;
+}
+.news {
+	margin-bottom: 40px;
+}
+.data_news {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #c31804;
+}
+.news_item h4 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #393838;
+}
+.news_item p {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #393838;
+	margin-bottom: 10px;
+}
+.news_item .all_news {
+	float: right;
+	margin-right: 18px;
+}
+.news_item a {
+	float: right;
+	font-size: 12px;
+	color: #393838;
+	text-transform: uppercase;
+}
+.news_item a:hover {
+	text-decoration: none;
+}
+/*Футер*/
+.footer {
+	height: 120px;
+	position: relative;
+	background: #242424;
+}
+.copyright {
+	font-size: 14px;
+	padding-top: 80px;
+	color: #dddddd;
+}
+.footer_menu {
+	position: absolute;
+	top: 25px;
+	right: 0;
+	border-bottom: 3px solid #303031;
+}
+.footer_menu li {
+	display: inline-block;
+	margin-left: 44px;
+	margin-bottom: 10px;
+}
+.footer_menu li:first-child {
+	margin-left: 0;
+}
+.footer_menu a {
+	font-size: 14px;
+	color: #dddddd;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.footer_menu a:hover {
+	color: #c31804;
+}
+.footer_made {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 14px;
+	color: #dddddd;
+}
+.footer_made span {
+	color: #c31804;
+}

@@ -1,0 +1,34 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+RewriteCond %{REQUEST_URI} !/css/
+RewriteCond %{REQUEST_URI} !/images/
+RewriteCond %{REQUEST_URI} !/upload/
+RewriteCond %{REQUEST_URI} !/js/
+RewriteCond %{REQUEST_URI} !/mod/
+RewriteCond %{REQUEST_URI} !/inc/
+RewriteCond %{REQUEST_URI} !/admin
+RewriteCond %{REQUEST_URI} !/fancybox/
+RewriteCond %{REQUEST_URI} !/min/
+RewriteCond %{REQUEST_URI} !/fonts/
+RewriteCond %{REQUEST_URI} !/404.html
+RewriteCond %{REQUEST_URI} !/basket.php
+RewriteCond %{REQUEST_URI} !/image.php
+RewriteCond %{REQUEST_URI} !/robots.txt
+RewriteCond %{REQUEST_URI} !/favicon.ico
+RewriteCond %{REQUEST_URI} !/sitemap.php
+RewriteCond %{REQUEST_URI} !/sitemap.xml
+RewriteRule ^(.*)$ index.php [L,QSA]
+
+RewriteRule ^.htaccess$ - [F]
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]
+RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro 
+RewriteRule ^.*$ - [F]
+RewriteCond %{HTTP_HOST} ^www\.kiberstroi\.ru$ [NC]
+RewriteRule ^(.*)$ http://kiberstroi.ru/$1 [R=301,L]
+
+AddDefaultCharset windows-1251
+
+ErrorDocument 404 /404.html
+Redirect /catalog/84-vorota__kalitki/422-vk_112.html http://kiberstroi.ru/catalog/28-aksessuary_dlya_signalizacii_/422-besprovodnaya_zvukovaya_sirena_revun.html

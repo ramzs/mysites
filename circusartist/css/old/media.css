@@ -1,0 +1,247 @@
+@media only screen and (max-width : 1200px) {
+  .nav ul li {
+    padding: 0 8.5px;
+  }
+  .head_links {
+    padding-left: 70px;
+  }
+  .person_social {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .footer_item:nth-child(4) {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width : 991px) {
+  .top_head_links a:first-child {
+    margin-right: 8px;
+  }
+  .head_links > a {
+    padding: 9px 35px;
+  }
+  .person_social {
+    float: right;
+  }
+  .head_links {
+    margin-top: 21px;
+  }
+  .head_contacts {
+    margin-top: 8px;
+  }
+  .nav ul li {
+    text-align: center;
+    height: 40px;
+    margin: 7px 0;
+  }
+  .nav_in ul li:first-child,
+  .nav_in ul li:last-child {
+    padding-top: 9px;
+  }
+  .nav ul li a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .nav ul li:nth-child(2) {
+    width: 14%;
+  }
+  .nav ul li:nth-child(3) {
+    width: 21%;
+  }
+  .nav ul li:nth-child(4) {
+    width: 16%;
+  }
+  .nav ul li:nth-child(5) {
+    width: 19%;
+  }
+  .nav ul li:nth-child(6) {
+    width: 12%;
+  }
+  .nav_in ul.drop_menu li {
+    padding: 0 25px;
+    margin: 0;
+    float: none;
+    text-align: left!important;
+  }
+  .drop_menu {
+    margin-top: 6px;
+  }
+  .news_social {
+    float: left;
+  }
+  .feedback_item:nth-child(5) {
+    display: none;
+  }
+  .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .head_links {
+    padding-left: 0;
+  }
+  .footer_item {
+    width: 25%;
+  }
+  .footer_item:nth-child(5) {
+    width: 100%;
+    margin-top: 45px;
+  }
+  .footer_item:nth-child(5) h3 {
+    height: auto;
+    display: inline-block;
+  }
+  .footer_item:nth-child(5) > div {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .footer_item h3 {
+    font-size: 13px;
+  }
+  .news_feedback_head span {
+    display: none;
+  }
+  .micromag_wr h3 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  
+  .logo_wrap {
+    text-align: center;
+  }
+  .logo_wrap a {
+    display: inline-block;
+  }
+  .head_contacts {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .head_links {
+    margin-bottom: 20px;
+  }
+  .nav {
+    position: relative;
+  }
+  .nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #1a9f10;
+    z-index: 9999;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -160px;
+    padding: 15px 0;
+    text-align: left;
+    width: 320px;
+    padding-left: 20px;
+  }
+  .nav ul li a {
+    color: #fff;
+    font-size: 17px;
+  }
+  .nav ul li {
+    display: block;
+    text-align: left;
+    float: none;
+    border: none;
+    padding: 0 10px!important;
+    width: auto!important;
+    margin: 0;
+    padding-left: 40px;
+  }
+  .drop_menu {
+    display: none!important;
+  }
+  .container {
+    width: 320px;
+  }
+  .about {
+    padding: 45px 0;
+  }
+  .news_item:nth-child(3),
+  .feedback_item:nth-child(4),
+  .feedback_item:nth-child(3) {
+    display: none;
+  }
+  .feedback_item,
+  .news_item {
+    margin-bottom: 29px;
+  }
+  .toggle_menu_wrap {
+    display: block;
+  }
+  .feedback_item_head {
+    text-align: center;
+  }
+  .feedback_author {
+    margin: 15px 0 0 0;
+    max-width: 100%;
+  }
+  .footer_item {
+    width: 50%!important;
+    margin-bottom: 37px;
+    padding-left: 0!important;
+  }
+  .footer_item:last-child {
+    margin-top: 0;
+    width: 100%!important;
+  }
+  .footer_item:last-child h3 {
+    display: block;
+    height: 57px;
+  }
+  .footer_item:last-child > div {
+    display: block;
+    margin: 0;
+  }
+  .footer_in {
+    padding-bottom: 0;
+  }
+  .footer_social {
+    float: left;
+  }
+  .footer_item {
+    width: 25%;
+  }
+  .footer_item:nth-child(1) {
+    padding-right: 15px;
+  }
+  .footer_item:nth-child(4) {
+    padding-left: 30px;
+  }
+  .footer_item:last-child {
+    width: 100%;
+  }
+  .footer_bottom {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer .container {
+    width: 290px;
+  }
+  .footer_item h3 {
+    font-size: 12px;
+  }
+  .footer_item ul li a {
+    font-size: 13px;
+    padding-right: 5px;
+  }
+  .micromag_descr img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .micromag_wr,
+  .micromag_wr > div,
+  .micromag_descr {
+    margin-bottom: 30px;
+  }
+  .person_social {
+    float: left;
+  }
+  .person_carousel img {
+    margin: 0;
+  }
+}

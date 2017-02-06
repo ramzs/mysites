@@ -1,0 +1,23 @@
+@media only screen and (max-width : 600px) {
+	.adv-block {
+		display: inline-table;
+	}
+	.adv-block_img {
+		display: block;
+	}
+	.adv-block_text {
+		display: block;
+		padding: 10px 0 0 10px;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.adv-block {
+		height: auto;
+		border-left: none;
+	}
+	.adv-block_img {
+		width: 100%;
+		height: auto;
+		padding-left: 0;
+	}
+}

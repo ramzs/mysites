@@ -1,0 +1,227 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	min-height: 660px;
+	margin: 0 auto;
+	background: url(../img/header.jpg) no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+nav {
+	display: block;
+	text-align: right;
+	margin-top: 0;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	margin-right: 20px;
+}
+nav li {
+	display: inline-block;
+	padding: 10px 0 20px 20px;
+}
+nav a {
+	font-size: 24px;
+	line-height: 24px;
+	color: #000;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #5c5c5c;
+}
+.header_box {
+	max-width: 850px;
+	height: 440px;
+	background-color: rgba(248, 248, 248, 0.7);
+	margin: auto;
+  position: relative;
+  top: 60px; left: 0; bottom: 0; right: 0;
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 5px 7px rgba(0,0,0,0.35);;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.35);;
+}
+.box_cont {
+	padding-left: 20px;
+	float: left;
+	color: #303030;
+}
+.box_cont h1 {
+	font-size: 48px;
+	font-family: Karton;
+	color: #ff5757;
+	text-transform: uppercase;
+}
+.box_cont span {
+	font-weight: bold;
+	color: #303030;
+}
+.box_img {
+	text-align: right;
+	margin: 50px 20px 0 0;
+	float: right;
+}
+.btn {
+	display: block;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+button {
+	cursor: pointer;
+	background-color: #9192b8;
+	border: 0;
+	width: 290px;
+	height: 70px;
+	font-size: 18px;
+	border-radius: 3px;
+	color: #fff;
+	-webkit-box-shadow: 5px 5px 7px rgba(0,0,0,0.35);;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.35);;
+	}
+
+.second {
+	min-height: 660px;
+	background: url(../img/second.jpg) no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.second_box {
+	max-width: 850px;
+	height: 440px;
+	margin: auto;
+  position: relative;
+  top: 60px; left: 0; bottom: 0; right: 0;
+}
+.sec_cont {
+	padding-right: 20px;
+	float: right;
+	color: #fff;
+}
+.sec_cont h1 {
+	font-size: 48px;
+	font-family: Karton;
+	text-transform: uppercase;
+}
+.sec_cont span {
+	font-weight: bold;
+}
+.sec_img {
+	text-align: right;
+	margin: 50px 0 0 20px;
+	float: left;
+}
+.btn_sec {
+	display: block;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+.btn_sec button {
+	cursor: pointer;
+	background-color: #fba416;
+	-webkit-box-shadow: 5px 5px 7px rgba(0,0,0,0.35);;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.35);;
+}
+
+.third {
+	min-height: 700px;
+	background: url(../img/third.jpg) no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.third_box {
+	max-width: 850px;
+	height: 440px;
+	margin: auto;
+  position: relative;
+  top: 60px; left: 0; bottom: 0; right: 0;
+}
+.third_cont {
+	padding-right: 20px;
+	float: left;
+	color: #562727;
+}
+.third_cont h1 {
+	font-size: 48px;
+	font-family: Karton;
+	text-transform: uppercase;
+	color: #254043;
+}
+.third_cont span {
+	font-weight: bold;
+}
+.third_img {
+	text-align: right;
+	margin: 50px 0 0 20px;
+	float: right;
+}
+.btn_third {
+	display: block;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+.btn_third button {
+	cursor: pointer;
+	background-color: #80c14c;
+	-webkit-box-shadow: 5px 5px 7px rgba(0,0,0,0.35);;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.35);;
+}
+
+.four {
+	min-height: 700px;
+	background: url(../img/four.jpg) no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.four_box {
+	max-width: 960px;
+	height: 440px;
+	margin: auto;
+  position: relative;
+  top: 50px; left: 0; bottom: 0; right: 0;
+}
+.cont_img_four {
+	display: inline-block;
+	text-align: center;
+	padding-left: 25px;
+}
+.four_cont {
+	font-size: 48px;
+	font-family: Karton;
+	color: #e84c3d;
+	margin-bottom: -65px;
+}
+.btn_four {
+	display: block;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+.btn_four button {
+	cursor: pointer;
+	background-color: #e84c3d;
+	-webkit-box-shadow: 5px 5px 7px rgba(0,0,0,0.35);;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.35);;
+}
+
+footer {
+	height: 100px;
+	background-color: #ffa032;
+	position: absolute;
+  width: 100%;
+}
+footer p {
+	color: #303030;
+	padding-top: 30px;
+  padding-left: 70px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

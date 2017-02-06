@@ -1,0 +1,1094 @@
+@media only screen and (max-width : 1200px) {
+	.profit_calculate {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 1170px) {
+	.services_title h2 {
+		width: 58%;
+	}
+	.services_form_title h2:before,
+	.services_form_title h2:after {
+		width: 27%;
+	}
+	.feedback_item img {
+		padding: 35px 65px;
+	}
+	.feedback_title {
+		width: 90%;
+	}
+	.garant_left a, .garant_right a {
+		font-size: 20px;
+	}
+	.block_right:before {
+		left: -60px;
+	}
+	.block_right h3:after,
+	.block_right h3:before {
+		width: 8%;
+	}
+	.garant_title {
+		margin: 151px 0 0 45px;
+	}
+	.garant_left {
+		padding-left: 75px;
+	}
+	.footer_form_title,
+	.profit_footer_title,
+	.complete_footer_title,
+	.article_footer_title {
+		margin: 18px 0 0 93px;
+	}
+	.footer_form_title h2,
+	.profit_footer_title h2,
+	.complete_footer_title h2,
+	.article_footer_title h2 {
+		font-size: 28px;
+	}
+	.foot_btn .btn_vk,
+	.complete_foot_btn .btn_vk,
+	.profit_foot_btn .btn_vk,
+	.article_foot_btn .btn_vk {
+		margin-top: 0;
+	}
+	.foot_contakt,
+	.complete_foot_contakt,
+	.profit_foot_contakt,
+	.article_foot_contakt {
+		margin-top: -5px;
+	}
+	.complete_feedback_title {
+		width: 85%;
+	}
+	.work_block_title h2:before,
+	.work_block_title h2:after {
+		width: 23%;
+	}
+	.sidebar_subscribe {
+		padding-bottom: 50px;
+	}
+	.sidebar_subscribe h3,
+	.sidebar_category h3,
+	.sidebar_search h3,
+	.sidebar_popular h3,
+	.sidebar_social h3 {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width : 1100px) {
+	.tip {
+		display: none;
+	}
+}
+@media only screen and (max-width : 992px) {
+	.header_title h1 {
+		font-size: 32px;
+	}
+	.header_title span {
+		font-size: 20px;
+	}
+	.form_title h5 {
+		font-size: 15px;
+	}
+	.form_block input[type="text"] {
+		width: 30%;
+	}
+	.services_title h2 {
+		width: 90%;
+		padding-left: 110px;
+	}
+	.serv_item1,
+	.serv_item2,
+	.serv_item3,
+	.serv_item5,
+	.serv_item6,
+	.serv_item7 {
+		margin: 20px 20px;
+		vertical-align: middle;
+	}
+	.serv_item4 {
+		margin-top: 15px;
+	}
+	.services_form_title h2:before {
+		width: 20%;
+	}
+	.services_form_title h2:after {
+		width: 20%;
+	}
+	.services_form_block input[type="text"] {
+		display: inline-block;
+		width: 80%;
+	}
+	.services_form_block button {
+		display: inline-block;
+		margin-top: 15px;
+		text-align: center;
+		margin-left: 0;
+	}
+	.feed_item_social {
+		margin-bottom: 40px;
+	}
+	.garant_blocks {
+		width: 90%;
+	}
+	.garant_left {
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+	.garant_right {
+		float: none;
+		display: inline-block;
+		padding-top: 30px;
+		width: 77%;
+	}
+	.garant_item_left img, .garant_item_right img {
+		text-align: left;
+		display: block;
+		padding-left: 68px;
+	}
+	.promo_title {
+		width: 90%;
+	}
+	.block_left {
+		float: left;
+		width: 40%;
+		margin-right: 108px;
+	}
+	.block_right {
+		float: left;
+		width: 45%;
+	}
+	.block_left h3, .block_right h3 {
+		font-size: 20px;
+	}
+	.block_right:before {
+		left: -70px;
+	}
+	.block_left h3:after,
+	.block_left h3:before {
+		width: 15%;
+	}
+	.block_left p {
+		padding: 0 20px 25px 20px;
+	}
+	.comment_soc {
+		margin-top: 60px;
+	}
+	.foot_btn {
+		margin-left: 35px;
+	}
+	.foot_btn,
+	.profit_foot_btn,
+	.complete_foot_btn,
+	.article_foot_btn {
+		display: inline-block;
+		text-align: center;
+		margin-right: 50px;
+	}
+	.foot_btn .btn_vk,
+	.foot_btn .btn_fb,
+	.foot_btn .btn_yt,
+	.complete_foot_btn .btn_vk,
+	.complete_foot_btn .btn_fb,
+	.complete_foot_btn .btn_yt,
+	.profit_foot_btn .btn_vk,
+	.profit_foot_btn .btn_fb,
+	.profit_foot_btn .btn_yt,
+	.article_foot_btn .btn_vk,
+	.article_foot_btn .btn_fb,
+	.article_foot_btn .btn_yt  {
+		margin-left: 0;
+	}
+	.foot_contakt,
+	.complete_foot_contakt,
+	.profit_foot_contakt,
+	.article_foot_contakt {
+		margin-left: 0;
+	}
+	.foot_contakt h3:after {
+		right: -20px;
+		width: 60px;
+	}
+	.foot_contakt h3:before {
+		left: -20px;
+		width: 60px;
+	}
+	.profit_title h1 {
+		font-size: 30px;
+	}
+	.profit_budget_title h3,
+	.profit_sales_title h3 {
+		font-size: 27px;
+	}
+	.profit_calculate {
+    	padding-top: 15px;
+	}
+	.footer_profit {
+    	text-align: center;
+	}
+	.footer_form_title,
+	.complete_footer_title,
+	.profit_footer_title,
+	.article_footer_title {
+		text-align: left;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.footer_form_title h2,
+	.complete_footer_title h2,
+	.profit_footer_title h2,
+	.article_footer_title h2 {
+		width: 100%;
+	}
+	.profit_social_block {
+		width: 97%;
+	}
+	.footer_thank_social span {
+		margin-top: 10px;
+	}
+	.footer_thank_bottom .copyright {
+		display: block;
+		margin-top: -63px;
+	}
+	.footer_thank_bottom .developer {
+		float: left;
+	}
+	.footer_thank_social {
+    	margin-top: 25px;
+	}
+	.complete_top_form .form_title h5 {
+		width: 80%;
+	}
+	.complete_feedback_title {
+    	width: 100%;
+    	margin: 0 5px;
+	}
+	.complete_feedback_title h2 {
+		font-size: 26px;
+	}
+	.complete_feedback_item {
+		margin: 0 5px;
+	}
+	.complete_feedback_item img {
+		display: block;
+	}
+	.complete_feedback_link {
+		width: 75%;
+	}
+	.complete_form_title {
+		margin-top: -18px;
+	}
+	.complete_form_title h2 {
+		font-size: 26px;
+	}
+	.footer_form,
+	.complete_footer_form,
+	.profit_footer_form,
+	.article_footer_form {
+		margin-bottom: 0;
+		height: 600px;
+		text-align: center;
+		background: none;
+	}
+	.work_block_title h2 {
+		font-size: 30px;
+	}
+	.work_block_title h2:before,
+	.work_block_title h2:after {
+		width: 20%;
+	}
+	.blog_head_title h1 {
+		font-size: 36px;
+	}
+	.blog_main_link {
+		margin-left: 0;
+	}
+	.blog_post_right .post_title h2 {
+		font-size: 32px;
+	}
+	.article_head_title {
+		margin-left: 0;
+	}
+	.article_head_title h1 {
+		font-size: 36px;
+	}
+	.article_post_right .article_text h2 {
+		font-size: 30px;
+	}
+	.article_post_right .article_text .line {
+		margin-left: 44px;
+	}
+	.article_post_right .article_text .line:before {
+		width: 30px;
+		left: -40px;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.menu_mob {
+		padding-right: 20px;
+		margin-top: 10px;
+	}
+	.phone_int {
+		display: none;
+	}
+	.form_block input[type="text"] {
+		width: 35%;
+	}
+	.garant_title h2 {
+		font-size: 30px;
+	}
+	.promo_title span {
+		font-size: 20px;
+	}
+	.block_left {
+		float: none;
+		width: 275px;
+		margin: 90px 0 0 0;
+	}
+	.block_right {
+		float: none;
+		width: 300px;
+	}
+	.block_left:after,
+	.block_right:before {
+		width: 0;
+		height: 0;
+	}
+	.services_form {
+		width: 100%;
+	}
+	.feedback_title {
+		width: 100%;
+	}
+	.garant_right {
+		width: 100%;
+		padding-left: 75px;
+	}
+	.garant_item_left img,
+	.garant_item_right img {
+		text-align: left;
+		display: block;
+		padding-left: 68px;
+	}
+	.profit_title h1 {
+		padding: 0 15px;
+	}
+	.profit_budget,
+	.profit_sales {
+    	padding: 0 15px;
+	}
+	.profit_comment {
+		text-align: center;
+		padding: 0 15px;
+	}
+	.profit_comment .fb {
+		display: inline-block;
+		width: 95%;
+	}
+	.profit_comment .vk {
+		display: inline-block;
+		width: 95%;
+	}
+	.order_top_block, .thank_top_block {
+		padding: 0 15px;
+	}
+	.order_bottom {
+		text-align: center;
+	}
+	.order_bottom_form {
+		float: none;
+		display: inline-block;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.footer_order .copyright {
+		padding-left: 5px;
+	}
+	.complete_top {
+		padding: 0 5px 200px 5px;
+	}
+	.complete_title {
+		padding: 76px 15px 0;
+	}
+	.complete_title h1 {
+		font-size: 26px;
+	}
+	.complete_title span {
+		font-size: 20px;
+	}
+	.complete_top_form {
+		padding: 0 15px 37px 15px;
+	}
+	.complete_top_form .form_title h5 {
+		width: 100%;
+	}
+	.complete_project_item {
+		padding: 0 15px;
+	}
+	.complete_project_title h2 {
+		font-size: 26px;
+		padding: 0 15px;
+	}
+	.complete_project_link a {
+		font-size: 18px;
+	}
+	.complete_work {
+		padding: 400px 15px 0 15px;
+	}
+	.complete_work_link a {
+		font-size: 18px;
+	}
+	.complete_feedback {
+		padding: 0 15px;
+	}
+	.complete_feedback_title h2 {
+		font-size: 22px;
+	}
+	.complete_feedback_link {
+    	width: 100%;
+    	padding: 30px 5px 0 60px;
+	}
+	.complete_feedback_link a {
+		font-size: 18px;
+	}
+	.complete_form_title {
+		margin-top: -14px;
+	}
+	.complete_form_title h2 {
+		font-size: 22px;
+	}
+	.complete_form_link a {
+		font-size: 18px;
+	}
+	.complete_footer_title {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.footer_thank_bottom .copyright {
+		margin-top: 10px;
+	}
+	.footer_thank_menu {
+		display: none;
+	}
+	.footer_menu_dropdown {
+		display: block;
+		float: left;
+		margin: 18px 0 0 15px;
+	}
+	.footer_thank_social {
+    	margin: 0 15px 0 0;
+	}
+	.footer_thank_bottom .copyright {
+		display: inline-block;
+		margin: 35px 0 0 15px;
+	}
+	.footer_thank_bottom .developer {
+		float: right;
+		margin-right: 15px;
+	}
+	.blog_head_title {
+		padding: 0 15px;
+	}
+	.blog_main {
+    	width: 54%;
+	}
+	.blog_post {
+		padding-left: 15px;
+	}
+	.post_category {
+		display: none;
+	}
+	.blog_sidebar {
+    	width: 44%;
+    	margin-right: 5px;
+	}
+	.article_head_title {
+		padding: 0 15px;
+	}
+	.article_post {
+		padding-left: 15px;
+	}
+	.article_post_right .article_text h2 {
+		font-size: 26px;
+	}
+	.article_comment h2 {
+		padding-left: 15px;
+	}
+	.article_comment_wrap .fb,
+	.article_comment_wrap .vk {
+		padding: 20px;
+	}
+	.article_footer_title {
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width : 700px) {
+	.services_form_title h2:before {
+		width: 15%;
+	}
+	.services_form_title h2:after {
+		width: 15%;
+	}
+	.promo_title {
+		width: 80%;
+	}
+	.services_title h2 {
+		text-align: center;
+		width: 100%;
+		padding-left: 0;
+	}
+	.profit_title h1 {
+		font-size: 24px;
+	}
+	.profit_budget_title h3,
+	.profit_sales_title h3 {
+		font-size: 21px;
+	}
+	.profit_calculate_link p a {
+		display: inline-block;
+	}
+	.profit_block {
+    	margin-top: 20px;
+	}
+	.profit_block_text h3 {
+		font-size: 24px;
+	}
+	.order_top {
+		padding: 50px 0 200px;
+	}
+	.thank_page {
+		background-position: top left;
+	}
+	.work_block_title h2:before,
+	.work_block_title h2:after {
+		width: 15%;
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	.logo {
+		float: none;
+	}
+	.logo_text {
+		text-align: right;
+		padding-left: 0;
+	}
+	.callback {
+		margin-top: -48px;
+	}
+	.header_title h1 {
+		font-size: 23px;
+		line-height: 40px;
+	}
+	.header_title span {
+		font-size: 18px;
+		margin-left: 50px;
+	}
+	.header_title span:before {
+		left: -50px;
+	}
+	.form_title h5 {
+		font-size: 14px;
+	}
+	.services_title h2 {
+		width: 100%;
+	}
+	.garant_title h2 {
+		font-size: 24px;
+	}
+	.blog_post {
+		padding-right: 15px;
+	}
+	.blog_main {
+    	width: 98%;
+		margin: 0 auto;
+		float: none;
+	}
+	.blog_sidebar {
+    	width: 98%;
+    	margin: 0 auto;
+    	float: none;
+	}
+	.sidebar_subscribe h3 {
+		width: 90%;
+	}
+	.article_post {
+		padding-right: 15px;
+	}
+	.sidebar_subscribe,
+	.sidebar_category,
+	.sidebar_search,
+	.sidebar_popular,
+	.sidebar_social {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.services_form_title h2:before {
+		width: 10%;
+	}
+	.services_form_title h2:after {
+		width: 10%;
+	}
+	.feedback_title h2 {
+		font-size: 26px;
+	}
+	.promo_title span {
+		font-size: 18px;
+	}
+	.order_top {
+		background-position: top left;
+		padding: 50px 0 200px;
+	}
+	.order_top_title h2 {
+		font-size: 28px;
+	}
+	.order_top_title span {
+		font-size: 20px;
+	}
+	.profit_sales_form {
+		height: auto;
+	}
+	.sales_form_block {
+		    padding: 25px 5px 18px 5px;
+	}
+	.sales_form_block li {
+		text-align: center;
+	}
+	.sales_form_block li p {
+		width: 80%;
+		text-align: left;
+	}
+	.sales_form_block li .box {
+		width: 80%;
+		margin-left: 0;
+	}
+	.sales_form_bottom {
+		display: inline-block;
+		text-align: right;
+		width: 80%;
+	}
+	.sales_form_price,
+	.sales_form_client {
+		position: static;
+		display: inline-block;
+	}
+	.complete_title h1 {
+    	font-size: 22px;
+	}
+	.complete_project_title h2 {
+		font-size: 22px;
+	}
+	.complete_form_block button {
+		margin: 20px 0 0 0;
+	}
+	.footer_thank_top {
+		height: 175px;
+	}
+	.footer_thank_bottom .copyright {
+		margin-top: 10px;
+	}
+	.footer_thank_bottom .developer {
+		margin-top: 8%;
+	}
+	.article_head_title h1 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width : 580px) {
+	.garant_item_left img,
+	.garant_item_right img {
+		text-align: center;
+		display: inline-block;
+		padding-left: 0;
+	}
+	.profit_block_text h3 {
+		font-size: 22px;
+	}
+	.profit_social_block h3 {
+		font-size: 24px;
+	}
+	.profit_social_total li {
+		padding: 0 5px 0;
+	}
+	.profit_social_total li img {
+    	margin-right: 5px;
+	}
+	.order_bottom_form {
+		max-width: 97%;
+	}
+	.thank_top_block {
+		width: 100%;
+	}
+	.thank_top_title h2 {
+		font-size: 28px;
+	}
+	.thank_top_title span {
+		font-size: 22px;
+	}
+	.budget_form_top {
+		padding: 22px 5px 0 5px;
+	}
+	.budget_form_bottom {
+		padding: 13px 5px 0 5px;
+	}
+	.complete_top_form .form_block {
+		text-align: center;
+	}
+	.complete_top_form button {
+		margin: 20px 0 0 0;
+	}
+	.work_block_title h2 {
+    	font-size: 26px;
+	}
+	.work_block_title {
+		margin-top: -20px;
+	}
+	.work_block_title h2:before,
+	.work_block_title h2:after {
+		width: 11%;
+	}
+}
+
+@media only screen and (max-width : 520px) {
+	.form_block {
+		text-align: center;
+	}
+	.form_block input[type="text"] {
+		display: inline-block;
+		width: 100%;
+	}
+	.header_form button {
+		display: inline-block;
+		margin-top: 15px;
+		margin-left: 0;
+	}
+	.services_title h2 {
+		font-size: 24px;
+		margin-top: 8px;
+	}
+	.services_form_title h2 {
+		font-size: 26px;
+	}
+	.services_form_title h3 {
+		font-size: 18px;
+	}
+	.services_form_title h4 {
+		font-size: 16px;
+	}
+	.garant_left a, .garant_right a {
+		font-size: 16px;
+	}
+	.garant_title h2 {
+		font-size: 18px;
+	}
+	.promo_text {
+		width: 100%;
+		margin-left: 20px;
+	}
+	.promo_text p {
+		display: inline-block;
+		width: 90%;
+		margin: 30px 0;
+	}
+	.promo_text .desc1:before,
+	.promo_text .desc2:before {
+		left: 40%;
+		top: -55px;
+	}
+	.foot_contakt {
+		padding-left: 10px;
+	}
+	.complete_foot_contakt,
+	.profit_foot_contakt,
+	.article_foot_contakt {
+		padding-left: 25px;
+	}
+	.footer_form_title h2 {
+		font-size: 22px;
+	}
+	.profit_block_text h3:before,
+	.profit_block_text h3:after {
+		width: 8%;
+	}
+	.foot_btn {
+		margin-left: 0;
+	}
+	.foot_btn,
+	.complete_foot_btn,
+	.profit_foot_btn,
+	.article_foot_btn {
+		margin-right: 0;
+	}
+	.article_comment_bg {
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.top_header {
+		text-align: right;
+	}
+	.logo {
+		float: left;
+		text-align: center;
+	}
+	.logo_text {
+		text-align: right;
+		padding-left: 20px;
+	}
+	.menu_mob.sb-toggle-right {
+		position: absolute;
+		top: 42px;
+		right: 20px;
+	}
+	.callback {
+		position: absolute;
+		top: -12px;
+		right: 95px;
+	}
+	.header_form {
+		padding-bottom: 40px;
+	}
+	.serv_item4 {
+		margin-bottom: 80px;
+	}
+	.feedback_title {
+		padding-top: 80px;
+	}
+	.feed_item_social {
+		margin-bottom: 30px;
+	}
+	.garant {
+		padding-top: 40px;
+	}
+	.garant_title {
+		margin-top: 40px;
+	}
+	.garant .services_form {
+		margin-top: 60px;
+	}
+	.garant_left a,
+	.garant_right a {
+		font-size: 14px;
+	}
+	.promo {
+		margin-top: 80px;
+	}
+	.block_left {
+		margin-top: 40px;
+	}
+	.footer_form {
+		margin: 0;
+	}
+	.feedback_title h2 {
+		font-size: 22px;
+	}
+	.garant_item_left img,
+	.garant_item_right img {
+		width: 90%;
+	}
+	.garant_item_left h3,
+	.garant_item_right h3 {
+		text-align: center;
+		padding-left: 0;
+	}
+	.garant_item_left p,
+	.garant_item_right p {
+		padding-left: 20px;
+	}
+	.garant_item_left span,
+	.garant_item_right span {
+		padding-left: 20px;
+	}
+	.garant_social {
+		margin-left: 20px;
+	}
+	.promo_title {
+		margin-left: 20px;
+	}
+	.promo_title span:before {
+		top: 12px;
+		left: -45px;
+	}
+	.foot_btn {
+		margin-right: 0;
+	}
+	.promo_title h2 {
+		text-align: center;
+	}
+	.promo_title span:before {
+		width: 0;
+		height: 0;
+	}
+	.serv_blocks {
+		margin-top: -50px;
+	}
+	.profit_block_text h3 {
+    	font-size: 18px;
+    	margin-top: -12px;
+	}
+	.profit_block_text p {
+    	font-size: 16px;
+    	padding: 10px 20px 20px 20px;
+	}
+	.order_bottom_form h3 {
+		font-size: 24px;
+	}
+	.order_bottom_form {
+		height: 690px;
+		padding: 4px 25px 8px 25px;
+	}
+	.profit_budget_form {
+		height: auto;
+	}
+	.profit_budget_title {
+    	display: inline-block;
+    	margin-bottom: 20px;
+	}
+	.profit_budget_title h3 {
+		margin-right: 0;
+	}
+	.profit_budget_title a {
+		display: block;
+	}
+	.budget_form_top {
+		padding-top: 0;
+	}
+	.budget_form_top li {
+		text-align: center;
+	}
+	.budget_form_top li p {
+		float: none;
+		display: inline-block;
+		text-align: left;
+		width: 263px;
+	}
+	.budget_form_top li input {
+		max-width: 220px;
+	}
+	.budget_top_link {
+		margin-bottom: 0;
+	}
+	.budget_form_bottom {
+		padding-top: 0;
+	}
+	.budget_bottom_link {
+		margin-bottom: 20px;
+	}
+	.budget_form_bottom li {
+		text-align: center;
+	}
+	.budget_form_bottom li .middle {
+		width: 200px;
+	}
+	.budget_form_bottom li.top p {
+		width: 250px;
+	}
+	.budget_form_bottom li .long {
+		width: 200px;
+	}
+	.budget_form_bottom li p {
+		display: inline-block;
+		float: none;
+		text-align: left;
+		width: 290px;
+	}
+	.sales_form_block li p {
+		width: 262px;
+	}
+	.sales_form_block li .box {
+		width: 262px;
+	}
+	.sales_form_bottom {
+		width: 285px;
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width : 420px) {
+	.services_form_block button {
+		font-size: 12px;
+	}
+	.services_form_title h2 {
+		font-size: 20px;
+		margin-top: 12px;
+	}
+	.services_form_title h3 {
+		font-size: 16px;
+	}
+	.services_form_title h4 {
+		font-size: 14px;
+	}
+	.profit_social_block h3 {
+		font-size: 18px;
+		margin-top: -10px;
+	}
+	.work_block_title h2 {
+    	font-size: 22px;
+	}
+	.blog_head_title h1 {
+    	font-size: 30px;
+	}
+	.blog_post_right .post_title h2 {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width : 380px) {
+	.header_title h1 {
+		font-size: 18px;
+	}
+	.header_title span {
+		font-size: 16px;
+	}
+	.form_title h5 {
+		font-size: 12px;
+	}
+	.services_title h2 {
+		font-size: 18px;
+		padding-top: 50px;
+	}
+	.feedback_item img {
+		padding: 35px 55px;
+	}
+	.feedback_title h2 {
+		font-size: 18px;
+	}
+	.profit_block_text h3:before,
+	.profit_block_text h3:after {
+		width: 2%;
+	}
+	.order_bottom_form h3 {
+		font-size: 20px;
+	}
+	.order_bottom_form {
+		height: 690px;
+		padding: 4px 10px 8px 10px;
+	}
+	form.order {
+		text-align: center;
+	}
+	form.order button {
+		display: inline-block;
+	}
+	.complete_project_item {
+		width: 97%;
+	}
+	.complete_feedback_title h2 {
+		font-size: 18px;
+	}
+	.project_item_text {
+		width: 97%;
+	}
+	.work_block_title h2:before,
+	.work_block_title h2:after {
+    	width: 5%;
+	}
+}

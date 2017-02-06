@@ -1,0 +1,51 @@
+#contact-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#contact-container {font: Tahoma, Verdana, Arial, Helvetica, sans-serif; text-align:left; width:450px;}
+#contact-container .contact-content {background-color:#FFF; color:#666; height:40px;}
+#contact-container h1 {color:#666; font-size:20px; line-height:40px; margin:0;text-align:left; padding: 0px 0px 6px 20px;}
+#contact-container .contact-loading {background:url(/images/loader.gif) no-repeat; height:55px; margin:-14px 0 0 190px; padding:0; position:absolute; width:54px; z-index:8000;}
+#contact-container .contact-message {text-align:center;}
+#contact-container .contact-error {background:#FFF; border:2px solid #ccc; font-size:14px; font-weight:bold; color:red; line-height:18px; margin:0 auto; padding:2px; width:92%;}
+#contact-container br {clear:both;}
+#contact-container form {margin:0; padding:0;}
+#contact-container label {clear:left; display:block; float:left; font-weight:bold; padding-right:4px; text-align:right; width:120px;
+    font-size: 12px;}
+#contact-container .contact-input {background:#eee; border:1px solid #fff; font-family: Tahoma; float:left; padding:2px; margin:2px; width:290px;}
+#contact-container textarea {height:114px;}
+#contact-container .contact-cc {cursor:default; font-size:14px; vertical-align:top;}
+#contact-container .contact-bottom {background-color:#333; font-size:12px; height:13px; line-height:12px; text-align:center; }
+#contact-container .contact-bottom a,
+#contact-container .contact-bottom a:link,
+#contact-container .contact-bottom a:active,
+#contact-container .contact-bottom a:visited {color:#666; position:relative; top:-4px; text-decoration:none;}
+#contact-container .contact-bottom a:hover {color:#888;}
+#contact-container .contact-button {
+background: #246cb3;
+border: 1px solid #67c028;
+color:#fff; cursor:pointer; height:26px; margin:4px 0 0 4px; text-align:center; vertical-align:middle; 
+}
+#contact-container .contact-button:hover {
+background: #ffc300;
+border: 1px solid #c82224;
+}
+#contact-container a.modal-close,
+#contact-container a.modal-close:link,
+#contact-container a.modal-close:active,
+#contact-container a.modal-close:visited {color:#999; font-size:18px; font-weight:bold; position:absolute; text-decoration:none; right:8px; top:0px;}
+#contact-container a.modal-close:hover {color:#ccc;}
+
+@media (max-width : 450px) {
+	#contact-container  {width:100% !important;}
+	#contact-container input, #contact-container textarea {
+		width:95% !important;
+		margin:auto !important;
+		margin-left:2% !important; 
+	}
+	#contact-container .contact-button{
+	padding: 0 3% !important;
+		
+	}
+	
+	
+}

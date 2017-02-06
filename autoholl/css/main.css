@@ -1,0 +1,223 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header {
+	background-image: url(../img/top_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 644px;
+	position: relative;
+	font-family: "BebasBold";
+}
+header a {
+	color: #fff;
+}
+.top_line {
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255,255,255,.4) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+	padding: 22px 0;
+}
+.top_line a {
+	font-size: 21px;
+	border-bottom: #fff dashed 1px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.top_line a:hover {
+	border-bottom: transparent 1px dashed ;
+}
+.top_adr {
+	padding-left: 50px;
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 26px;
+}
+.top_adr strong {
+	color: #d12f22;
+	display: block;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+.top_line .logo {
+	border-bottom: none;
+	position: absolute;
+	margin-top: -18px;
+}
+.top_line .logo:hover {
+	border-bottom: none;
+}
+.logo_wrap {
+	position: relative;
+	width: 240px;
+	margin: auto;
+}
+.ta_right {
+	background-image: none;
+	padding-left: 0;
+	text-align: right;
+}
+.ta_right span {
+	color: #fff;
+}
+header h1 {
+	text-align: center;
+	color: #fff;
+	margin-top: 65px;
+	font-size: 40px;
+	text-shadow: rgba(0,0,0,.55) 0 3px;
+	font-family: "BebasRegular";
+}
+.button {
+	display: inline-block;
+	background-color: #d12f22;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+	padding: 0 25px;
+	font-size: 20px;
+	border-bottom: 4px solid #ac160a;
+}
+.button:hover {
+	background-color: #e64437;
+}
+.button:active {
+	background-color: #b81609;
+}
+header .button {
+	margin-right: 20px;
+}
+.st_button {
+	line-height: 18px;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/camera_icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+.buttons_top {
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
+.top_mnu {
+	height: 62px;
+	background-color: #242424;
+	-webkit-box-shadow: rgba(255,255,255,.4) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	font-family: "BebasRegular";
+	text-transform: uppercase;
+}
+.top_mnu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.top_mnu a {
+	background-image: url(../img/top_mnu_iconset.png);
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+	color: #fff;
+	font-size: 20px;
+	padding: 0 26px 0 54px;
+	display: block;
+	line-height: 62px;
+	border-left: #383838 1px solid;
+}
+.top_mnu li {
+	float: left;
+}
+.top_mnu li.active,
+.top_mnu li:hover {
+	background-color: #050505;
+}
+.top_mnu li:nth-child(2) a {
+	background-position: 20px -67px;
+}
+.top_mnu li:nth-child(3) a {
+	background-position: 24px -151px;
+}
+.top_mnu li:nth-child(4) a {
+	background-position: 15px -241px;
+}
+.top_mnu li:nth-child(5) a {
+	background-position: 16px -334px;
+}
+.top_mnu li:nth-child(6) a {
+	background-position: 22px -425px;
+}
+.waranty {
+	border: 3px solid #fff;
+	border-radius: 3px;
+	float: right;
+	color: #fff;
+	cursor: default;
+	font-size: 15px;
+	padding: 3px 5px;
+	line-height: 16px;
+	margin-top: 8px;
+}
+.w_left,
+.w_right {
+	display: inline-block;
+	vertical-align: top;
+}
+.w_left span {
+	font-size: 34px;
+	font-family: "BebasBold";
+}
+.w_left {
+	font-family: "BebasBold";
+	font-size: 20px;
+	margin-right: 7px;
+	margin-top: 10px;
+}
+.w_right {
+	font-family: "RobotoCondensedRegular";
+}

@@ -1,0 +1,150 @@
+
+/* reset & basic styles */
+
+html, body{
+  height:100%;
+}
+
+body{
+  background:#918f8c;
+	color:#fff;
+	font:normal 16px/24px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+  overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position:relative;
+}
+
+body#main_page{
+	overflow-y:hidden;
+}
+
+table, tr, td{
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+img, button{
+	border:0px;
+	outline:none;
+}
+
+p, div, h1, h2, h3, h4, h5, h6, fieldset, form, input, textarea, header, nav, section, article, aside, footer{
+	margin:0px;
+	padding:0px;
+  display: block;
+	box-sizing:border-box;
+}
+
+ul, li, ol{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+fieldset{
+	border:none;
+}
+
+textarea{
+	overflow:auto;
+	outline:none;
+  resize:none;
+}
+
+input, select, area{
+	outline:none;
+}
+
+input [type="submit"]::-moz-focus-inner,
+input [type="button"]::-moz-focus-inner{
+  padding:0;
+  border:0;
+}
+
+::-ms-clear {
+	display:none;
+}
+
+input[type="button"],
+input[type="submit"],
+button{
+	-webkit-appearance: none !important;
+}
+
+.clear{
+	clear:both;
+	height:0px;
+	font-size:0px;
+}
+
+a{
+	color:#fff;
+	font:normal 16px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	outline:none;
+	text-decoration:none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+	text-shadow:none;
+	box-sizing:border-box;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+h1{
+	font:bold 48px/53px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+h2{
+	font:bold 70px/80px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	text-shadow:0px 3px #505050;
+	text-transform:uppercase;
+}
+
+.slider_info h2{
+	padding-top:28px;
+}
+.slider_item .slider_info h2{
+	transition: all 0.9s ease-in-out;
+	-webkit-transition: all 0.9s ease-in-out;
+	-moz-transition: all 0.9s ease-in-out;
+	-o-transition: all 0.9s ease-in-out;
+	position:relative;
+	right:-50px;
+}
+.active .slider_item .slider_info h2{
+	transform: translate(-50px,0);
+	-webkit-transform: translate(-50px,0);
+	-o-transform: translate(-50px,0);
+	-moz-transform: translate(-50px,0);
+}
+
+h3{
+	font:bold 66px/78px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	text-shadow:0px 3px #505050;
+	text-transform:uppercase;
+}
+
+h4{
+	font:bold 40px/47px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	text-shadow:0px 3px #505050;
+}
+
+h5{
+	font:bold 30px/37px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	text-shadow:0px 3px #505050;
+}
+
+/* /reset & basic styles */

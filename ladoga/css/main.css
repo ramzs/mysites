@@ -1,0 +1,405 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+/*end reset*/
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "Hagin", sans-serif;
+	overflow-x: hidden;
+}
+.wrapper {
+	max-width: 990px;
+	margin: 0 auto;
+	position: relative;
+}
+.header {
+	height: 1697px;
+	background: url(../img/Valaam_new-1.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+.header_logo {
+	padding-top: 80px;
+}
+.header_title {
+	display: inline-block;
+	padding-top: 1020px;
+}
+.header_title h1 {
+	font-size: 62px;
+	color: #fff;
+}
+
+.welcome {
+	height: 1697px;
+	background: url(../img/Valaam_new-2.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+.welcome_logo,
+.include_logo,
+.service_logo,
+.schedule_logo,
+.price_logo,
+.frame_logo,
+.gallery_logo {
+	display: inline-block;
+	padding-top: 50px;
+}
+.welcome_logo img,
+.include_logo img,
+.service_logo img,
+.schedule_logo img,
+.price_logo img,
+.frame_logo img,
+.gallery_logo img {
+	width: 65%;
+}
+.welcome_title {
+	display: inline-block;
+	width: 70%;
+	padding-top: 20px;
+}
+.welcome_title h2 {
+	font-size: 42px;
+}
+.welcome_title span {
+	display: block;
+	padding-top: 40px;
+	font-size: 28px;
+}
+.welcome_text {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    padding-top: 50px;
+}
+.welcome_text p {
+	font-size: 22px;
+	font-family: Georgia, sans-serif;
+	padding-bottom: 20px;
+}
+
+.include {
+	text-align: center;
+	height: 1697px;
+}
+.include_title {
+    padding-top: 23px;
+}
+.include_title h2 {
+	font-size: 42px;
+}
+.include_list {
+	display: inline-block;
+	text-align: left;
+	width: 80%;
+	padding-top: 20px;
+}
+.include_list ul li {
+	font-size: 22px;
+	font-family: Georgia, sans-serif;
+	margin-bottom: 10px;
+}
+.include_gallery {
+    margin-top: 45px;
+    padding: 0 80px;
+}
+.include_gallery .pict_1 {
+	margin-bottom: 20px;
+}
+.include_gallery .pict_1,
+.include_gallery .pict_3 {
+	float: left;
+    width: 400px;
+    height: 300px;
+}
+.include_gallery .pict_2 {
+	float: right;
+	width: 410px;
+	height: 620px;
+}
+.include_text {
+	display: inline-block;
+	margin-top: 60px;
+	width: 84%;
+}
+.include_text p {
+	font-size: 22px;
+	font-family: Georgia, sans-serif;
+	text-align: left;
+}
+
+.service {
+	height: 1697px;
+	background: url(../img/Valaam_new-8.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+.service_title {
+	display: inline-block;
+	padding-top: 50px;
+	width: 80%;
+}
+.service_title p {
+	font-size: 22px;
+	font-family: Georgia, sans-serif;
+}
+.service_title span {
+	display: inline-block;
+	font-size: 28px;
+	padding-top: 40px;
+	width: 75%;
+}
+.service_text {
+	display: inline-block;
+	width: 80%;
+	padding-top: 40px;
+	font-size: 22px;
+	font-family: Georgia, sans-serif;
+}
+.service_text ul li {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.service_text span {
+	display: inline-block;
+	text-align: center;
+	padding-top: 50px;
+}
+.schedule {
+	height: 1697px;
+	background: url(../img/Valaam_new-10.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+.schedule_title {
+	padding-top: 20px;
+}
+.schedule_title h2 {
+	font-size: 42px;
+}
+.schedule_table {
+	display: inline-block;
+	width: 90%;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Georgia, sans-serif;
+}
+.schedule_table table {
+	width: 100%;
+}
+.schedule_table tbody {
+	display: inline-block;
+}
+.schedule_table p {
+	text-align: left;
+}
+td.row_title {
+	padding: 20px 20px 20px 0;
+	border-bottom: 1px solid #000;
+}
+td {
+	vertical-align: top;
+	padding: 20px 20px 10px 0;
+}
+td.row_title p {
+	font-size: 22px;
+}
+td.long-banner-h1 {
+	font-family: "Hagin", sans-serif;
+}
+td.col-1 {
+	width: 3%;
+}
+td.col-2 {
+	width: 3%;
+}
+td.col-3 {
+	width: 19%;
+}
+td.col-4 {
+	width: 17%;
+}
+
+.price {
+	height: 1697px;
+	background: url(../img/Valaam_new-12.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	padding: 0 48px;
+}
+.price_title h2 {
+	font-size: 42px;
+	padding-top: 30px;
+}
+.type_boat {
+	text-align: left;
+	width: 250px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px;
+}
+.type_boat span {
+	font-size: 22px;
+	padding-left: 15px;
+}
+.type_boat p {
+	font-size: 18px;
+	font-family: Georgia, sans-serif;
+	padding-top: 15px;
+}
+.price_weekday {
+	text-align: center;
+}
+.weekday_title,
+.weekend_title {
+	text-align: left;
+	padding: 20px 0;
+}
+.weekday_title h2,
+.weekend_title h2 {
+	font-size: 42px;
+	line-height: 40px;
+    width: 100px;
+    border-bottom: 1px solid #000;
+}
+.weekend_title h2{
+	width: 176px;
+}
+.town,
+.two,
+.single {
+	display: inline-block;
+	margin-right: 10%;
+}
+.single {
+	margin-right: 0;
+}
+.town span,
+.two span,
+.single span {
+	display: inline-block;
+	padding-bottom: 15px;
+	font-size: 28px;
+}
+.town p,
+.two p,
+.single p {
+	font-size: 26px;
+	font-family: Georgia, sans-serif;
+}
+.price_weekend {
+    padding-top: 30px;
+}
+.price_bottom {
+	display: inline-block;
+	text-align: left;
+	width: 95%;
+	margin-top: 40px;
+}
+.frame {
+	height: 1550px;
+	background: url(../img/Valaam_new-14.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+.frame_text {
+	margin-top: 50px;
+    position: relative;
+    background: url(../img/frame.png) top center no-repeat;
+    background-size: 770px 400px;
+    padding: 65px 0 50px;
+}
+.frame_text p {
+	font-size: 22px;
+	color: #fff;
+	width: 55%;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 30px;
+}
+.frame_text .round:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	background: #fff;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	bottom: -20px;
+	right: 50%;
+	left: 50%;
+}
+.gallery {
+	text-align: center;
+}
+.gallery_box {
+    margin-top: 40px;
+}
+.gallery_box ul li {
+	display: inline-block;
+	list-style-type: none;
+	min-width: 33%;
+	height: 330px;
+	margin-bottom: 10px;
+}
+.gallery_box li img {
+	width: 320px;
+    height: 330px;
+}
+.footer {
+	text-align: center;
+}
+.footer_title {
+    margin-top: 70px;
+}
+.footer_title span {
+	font-size: 22px;
+}
+.footer_contact {
+    margin: 30px 0 20px;
+}
+.footer_contact p {
+	font-size: 18px;
+	font-family: Georgia, sans-serif;
+	line-height: 28px;
+}

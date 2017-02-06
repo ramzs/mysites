@@ -1,0 +1,9 @@
+	(function($){
+		$(window).load(function(){
+			$(".search_drop").mCustomScrollbar({
+				scrollButtons:{
+					enable:true
+				}
+			});
+		});
+	})(jQuery);

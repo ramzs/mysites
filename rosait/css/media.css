@@ -1,0 +1,30 @@
+@media only screen and (max-width : 1170px) {
+	.menu-001 .navbar li:last-child {
+		display: none;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.header-001 .contact p.address {
+		display: none;
+	}
+	.header-001 .contact {
+		float: left;
+	}
+	.menu-001 .navbar-default .navbar-collapse {
+		border: none;
+		background: #1b365b;
+	}
+	.menu-001 .navbar .navbar-nav {
+		float: left;
+	}
+	.menu-001 .navbar .dropdown-menu:before {
+		display: none;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    	color: #fff;
+	}
+	.gallery-001 .thumbnail > img {
+		width: 100%;
+		height: 100%;
+	}
+}

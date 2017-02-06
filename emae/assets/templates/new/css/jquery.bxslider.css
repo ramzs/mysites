@@ -1,0 +1,111 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	*zoom: 1;
+}
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+/** THEME
+===================================*/
+.bx-wrapper .bx-viewport {
+	position: relative;
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+.bx-controls.bx-has-pager {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+.bx-wrapper .bx-pager {
+	position: relative;
+	bottom: 0;
+	top: 36%;
+	left: 20px;
+	padding-top: 20px;
+}
+.bx-wrapper .bx-pager .bx-pager-item {
+	display: block;
+	margin-bottom: 15px;
+	*zoom: 1;
+	*display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	display: block;
+	position: relative;
+    height: 10px;
+    width: 10px;
+    top: 0;
+    left: 0;
+    text-indent: -9999px;
+    background: #fff;
+    outline: 0;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:not(.active):hover:after {
+    border: 3px solid #fff;
+    background: #303030;
+    height: 8px;
+    width: 8px;
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active:after {
+	content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 10px;
+    width: 10px;
+    padding: 3px;
+    border: 2px solid #fff;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}

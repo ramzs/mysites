@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Host: kiberstroi.ru
+Sitemap: http://kiberstroi.ru/sitemap.xml
